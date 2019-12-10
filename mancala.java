@@ -206,7 +206,7 @@ public class mancala {
 		else if(finishcheck == 1) {
 			return -10000;
 		}
-		if(depth == 5) {
+		if(depth == 10) {
 			return evaluation(x);
 		}
 
@@ -251,7 +251,7 @@ public class mancala {
 			return -10000;
 		}
 
-		if(depth == 5) {
+		if(depth == 10) {
 			return evaluation(x);
 		}
 
