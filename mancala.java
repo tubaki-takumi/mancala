@@ -166,16 +166,10 @@ public class mancala {
 					break;
 				}
 				int a = finish(x);
-				if(sengo) {
-					if(a == 0) {
+				
+					if(a != 2) {
 						break;
 					}
-				}
-				else {
-					if(a == 1) {
-						break;
-					}
-				}
 				System.out.println("連荘です。");
 			}
 
@@ -293,16 +287,9 @@ public class mancala {
 				break;
 			}
 			int a = finish(x);
-			if(sengo) {
-				if(a == 0) {
+				if(a != 2) {
 					break;
 				}
-				else {
-					if(a == 1) {
-						break;
-					}
-				}
-			}
 			System.out.println("連荘です。");
 		}
 	}
